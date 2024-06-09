@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics of Counting</title>
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body {
+            background-color: #f2f2f2;
+        }
+
+      
+
+        .sec1 {
+            width: 90%;
+            margin: 0 auto;
+            padding: 10px 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+
+        }
+
+        .image {
+            flex: 1;
+            margin-right: 40px;
+            overflow: hidden;
+
+        }
+
+        .image img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: 0.5s ease;
+        }
+
+        .image img:hover {
+            transform: scale(1.2);
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        .content > h2 {
+            font-size: 30px;
+            color: #333;
+            margin-bottom: 20px;
+            position:relative;
+        }
+
+        .content > p {
+            font-size: 18px;
+            line-height: 1.5;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .sec1 {
+            margin-top: 50px;
+        }
+
+        .btn-primary {
+            border-radius: 50px;
+            width: 50%;
+            margin-left: 25%;
+            justify-content: center;
+            align-items: center;
+            margin-top: 25%;
+            height: 6vh;
+            background-color: brown;
+            font-size:13px;
+            border-color: transparent;
+            color:white;
+            font-weight: bold;
+        }
+        
+        .btn-primary:hover {
+            background-color: #f0f0f0;
+            color: black;
+            border-color: blue;
+            border-width: 0.5px;
+        }
+
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 75px;
+            background-color: maroon;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+        }
+
+        .nav img {
+            width:7%;
+            filter:invert(100); 
+            margin-left: 235%;
+            margin-top: 18px;
+       
+        }
+
+        .nav img:hover {
+            transform: scale(1.1);
+            transition: 0.3s ease;
+        }
+
+        .content {
+            margin-top:100px;
+        }
+
+       
+        
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a  href="index.html">
+            <img src="back.png" alt="logo">
+        </a>
+    </div>
+
+    <div class="content">
+        <section class="sec1">
+            <div class="container">
+                <div class="image">
+                    <img src="TITLE.png" alt="Mango Matcha">
+                </div>
+
+                <div class="content">
+                    <h2>Basics of Counting</h2>
+                    <p>Mango matcha is a refreshing blend of tropical sweetness and earthy richness, perfect for a vibrant pick-me-up. Sip on this invigorating fusion for a delightful taste of paradise.</p>
+                    <a></a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="last">
+        <a href="index.html">
+            <button class="btn btn-primary">Return</button>
+        </a>
+    </section>
+</body>
+</html>
